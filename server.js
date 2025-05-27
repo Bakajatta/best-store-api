@@ -8,7 +8,6 @@ const middlewares = jsonServer.defaults()
 // Set default middlewares (logger, static, cors and no-cache)
 server.use(middlewares)
 
-
 // /!\ Bind the router db to the app
 server.db = router.db
 
